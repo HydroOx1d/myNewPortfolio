@@ -31,6 +31,53 @@
   font-weight: 700;
 }
 
+.general {
+  padding-top: 10rem;
+}
+.general__block {
+  padding: 8px 0 20px;
+  text-align: center;
+  clip-path: polygon(80% 0, 100% 100%, 20% 100%, 0 0);
+  background: linear-gradient(-266.51deg, rgba(255, 20, 20, 0.85) -1.18%, rgba(240, 187, 0, 0.87) 98.95%);
+  z-index: 5;
+}
+.general__block--title {
+  font-family: montserratB, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+.general__block--subtitle {
+  font-size: 30px;
+  font-family: montserratB, sans-serif;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #F3BE00;
+  text-shadow: 0px 0px 50px rgba(240, 187, 0, 0.89);
+}
+.general__block--desc {
+  font-size: 18px;
+  font-family: montserratM, sans-serif;
+  font-weight: 400;
+  max-width: 365px;
+  margin: 0 auto;
+  line-height: 23px;
+}
+.general__block--btn {
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: montserratB, sans-serif;
+  font-weight: 700;
+  border: 2px solid #F3BE00;
+  clip-path: polygon(100% 0, 80% 100%, 0 100%, 20% 0);
+  padding: 0.7rem 2rem;
+  margin-top: 20px;
+}
+.general__block--two {
+  max-width: 1280px;
+  height: 445px;
+}
+
 @font-face {
   font-family: "montserratB";
   src: url("../fonts/montserrat-boldO.woff2") format("woff2"), url("../fonts/montserrat-boldO.woff") format("woff");
