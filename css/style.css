@@ -84,12 +84,15 @@
   top: -24rem;
 }
 
+.about {
+  padding-top: 110px;
+}
 .about__title--text {
   text-align: center;
   margin: 50px;
   font-family: montserratB, sans-serif;
   font-weight: 900;
-  font-size: 250px;
+  font-size: 200px;
   color: #202020;
   text-transform: uppercase;
   text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
@@ -108,6 +111,32 @@
   letter-spacing: 5px;
   line-height: 1.5;
   font-family: montserratB, sans-serif;
+}
+
+.portfolio__title--text {
+  text-align: center;
+  margin: 50px;
+  font-family: montserratB, sans-serif;
+  font-weight: 900;
+  font-size: 150px;
+  color: #202020;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+}
+.portfolio__block--card {
+  position: relative;
+  max-width: 391px;
+  height: 278px;
+  background: linear-gradient(116.13deg, rgba(231, 24, 24, 0.97) 6.12%, rgba(255, 107, 0, 0.96) 50.59%, rgba(241, 188, 0, 0.94) 91.47%);
+  border-radius: 2px;
+}
+.portfolio__block--title {
+  font-family: montserratB;
+  font-size: 36px;
+  position: absolute;
+  top: 40%;
+  bottom: 60%;
+  left: 16%;
 }
 
 @font-face {
@@ -154,7 +183,7 @@ a {
   text-decoration: none;
 }
 
-wrapper {
+.wrapper {
   position: relative;
   min-height: 100%;
   overflow: hidden;
